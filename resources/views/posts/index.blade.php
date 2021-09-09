@@ -36,11 +36,11 @@
                     <div class="flex items-center">
                         <form action="" method="post" class="mr-1">
                             @csrf
-                            <button type="submit" class="text-blue-500 rounded font-medim">Like</button>
+                            <button type="submit" class="text-blue-500 text-white font-medium mr-5"><i class="far fa-thumbs-up"></i></button>
                         </form>
                         <form action="" method="post" class="mr-1">
                             @csrf
-                            <button type="submit" class="text-red-500 rounded font-medim">Unlike</button>
+                            <button type="submit" class="text-blue-500 font-medium"><i class="far fa-thumbs-down"></i></button>
                         </form>
                     </div>
                 </div>
